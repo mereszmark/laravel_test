@@ -1,0 +1,47 @@
+th,td {
+     vertical-align: middle;
+      text-align: center;
+}
+.container{
+  width: 50%;
+  margin: 30px;
+}
+.table{
+  padding: 10px;
+}
+
+.btn{
+  float: right;
+}
+
+.h4{
+  margin-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+.form-inline{
+  margin-left: 20px;
+  margin-top: 20px;
+    width: 40%;
+}
+.btn-danger{
+  float: right;
+}
+
+.btn-success{
+  float: left;
+
+}
+
+.margin-up{
+  margin-top: 30px;
+}
+
+input .form-control .input-sm{
+ width: 30px;
+}
+
+.redcenter{
+  color: red;
+  text-align: center;
+}

@@ -18,5 +18,9 @@ Route::get('/', function () {
 
 Route::get('/list', 'UserListController@list');
 Route::get('/user_detail.php', 'UserListController@show');
-
-
+Route::get('/add', function () {
+    return view('user_form');
+});
+Route::get('/adduser','UserListController@add');
+Route::get('/updateuser','UserListController@update');
+Route::get('/deleteuser','UserListController@delete');
